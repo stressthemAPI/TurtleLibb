@@ -59,6 +59,7 @@ local function protect_gui(obj)
 if destroyed then
    obj.Parent = game.CoreGui
    return
+end
 if syn and syn.protect_gui then
 syn.protect_gui(obj)
 obj.Parent = game.CoreGui
